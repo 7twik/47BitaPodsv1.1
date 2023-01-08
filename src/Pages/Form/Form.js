@@ -89,7 +89,7 @@ const Form = () => {
         }
         else{
             console.log(form);
-            axios.post("http://localhost:8080/form", form);
+            axios.post("https://bitapodsbackend.onrender.com/form", form);
             // window.location.reload();
         }
          };
