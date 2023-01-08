@@ -44,7 +44,7 @@
     font-size: 5vh;
     width: 52vw;
 }
-@media (max-width: 900px) and (min-height:900px) {
+@media (max-width: 900px) and (min-height:500px) {
     .Carou-tot{
         height: 130vh !important;
         display: flex;
