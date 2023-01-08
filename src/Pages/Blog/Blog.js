@@ -21,7 +21,7 @@ const Blog = () => {
 
         const options = {
           method: 'GET',
-          url: 'http://localhost:8080/blog'
+          url: 'https://bitapodsbackend.onrender.com/blog'
       }
       axios.request(options).then((response) => {
         console.log(response.data.orders)
