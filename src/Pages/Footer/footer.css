@@ -125,6 +125,7 @@ span{
     .rightr{
         padding-top: 5vh;
         width: 100vw;
+        height: max-content;
         display: flex;
         justify-content: center;
         text-align: center;
