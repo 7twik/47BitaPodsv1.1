@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Lato&family=Sevillana&family=Moon+Dance&family=McLaren&family=Montserrat&family=Oswald:wght@300&display=swap');
+
+.form-container1{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 84.74vh;
+    height: 74vh;
+    overflow-wrap:inherit;
+    background-color: white;
+    /* background-color: rgba(255, 4, 4, 0.456);   */
+    backdrop-filter: blur(10px);
+    /* opacity:0.5; */
+    box-shadow: 3px 4px 36px -6px rgba(0,0,0,0.8);
+    border-radius: 50px;
+    text-shadow: 0.6px 0.6px #721b1b ;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-bottom: 5vh;
+    
+}
+.form-total{
+    display: flex;
+    height: 65vh;
+}
+.form-left{
+    height: 65vh;
+    padding-left: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width:34vh;
+}
+.form-right{
+    height: 67vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width:40vh;
+    padding-right: 5vh;
+}
+.form-subm{
+    color: black;
+}
+.space{
+    font-size: small;
+    font-family: Poppins;
+    color: black;
+}
+.spaceb{
+    padding-bottom: 2vh;
+}
+.form-Nam{
+    padding-top: 8vh;
+}
+.form-bot{
+    width:84.74vh;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+.errorr{
+    color: rgb(2, 2, 2);
+    font-size: 3vh;
+    padding:3vh;
+    text-shadow: none;
+}
+.spaced{
+    height:0.8vh;
+}
+.spacebb{
+    min-height:0.8vh;
+}
+.spacebbb{
+    margin-top: -0.8vh;
+}
+.spacebbbb{
+    margin-top: -0.6vh;
+}
+@media (max-width: 600px) {
+    .form-bot,
+    .form-container1{
+        width:90vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}
+@media (max-height: 700px){
+    .form-container1{
+        width:80vw !important;
+        height:100vh !important;
+    }
+    .space{
+        font-size: 1vw !important;
+    }
+    .form-left{
+        width:40vw !important;
+        height: 80vh !important;
+    }
+    .form-right{
+        width:40vw !important;
+        height: 80vh !important;
+    }
+    .spaced{
+        height:10vh !important;
+    }
+}
+
+.class1{
+    left:50%;
+}
+.Date-1{
+    width:3vw;
+}
+.space-date{
+    max-width: 3vh;
+}

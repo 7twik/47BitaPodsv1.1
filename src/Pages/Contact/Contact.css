@@ -1,0 +1,23 @@
+.Contact-gap{
+    min-height: 10vh;
+}
+@media (max-height: 700px){
+    .sec2{
+        display:flex;
+        flex-direction: column !important;
+        width:100vw !important;
+        padding-left: 10vw !important;
+        padding-right: 10vw !important;
+    }
+    .sec2-left{
+        padding-top: 2vw !important;
+        padding-bottom: 2vw !important;
+        width:80vw !important;
+    }
+    .sec2-right{
+        
+        padding-top: 2vw !important;
+        padding-bottom: 2vw !important;
+        width:80vw !important;
+    }
+}
